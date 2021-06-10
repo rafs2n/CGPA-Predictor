@@ -1,5 +1,5 @@
 .jumbotron {
-  background-color: #17a2b8;
+  background-image: linear-gradient(to right, #e9304c, #039dfd);
   color: white;
   margin-top: 10px;
 }
@@ -15,4 +15,18 @@ footer {
   margin-top: -10px;
   margin-bottom: 10px;
   border-radius: 0.3em;
+}
+
+.table {
+  margin: auto !important;
+  width: 50%;
+}
+
+#card2 {
+  text-align: center;
+  width: 100%;
+}
+
+#policy {
+  margin-top: 4px;
 }
