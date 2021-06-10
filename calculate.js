@@ -28,6 +28,8 @@ $("#next_btn").click(function () {
       $("#previous_sem").slideUp();
       $("#current_sem").show();
       $("#back_btn").show();
+      $("#table").hide();
+      $("#card2").hide();
       counter++;
     } else {
       alert("Oopss! Seems you forgot to fill up the fields!");
@@ -120,7 +122,7 @@ $("#calculate_btn").click(function () {
 
       $("#est_cgpa").val(Math.round(est_cgpa * 100) / 100);
       $("#total_credit").val(total_credit);
-      $("#course_1").hide();
+      $("#course_1").slideUp();
       $("#result").show();
       $("#calculate_btn").hide();
       $("#back_btn").hide();
@@ -157,9 +159,9 @@ $("#calculate_btn").click(function () {
 
       $("#est_cgpa").val(Math.round(est_cgpa * 100) / 100);
       $("#total_credit").val(total_credit);
-      $("#course_1").hide();
-      $("#course_2").hide();
-      $("#result").show();
+      $("#course_1").slideUp();
+      $("#course_2").slideUp();
+      $("#result").slideDown();
       $("#calculate_btn").hide();
       $("#back_btn").hide();
       $("#again_btn").show();
@@ -204,10 +206,10 @@ $("#calculate_btn").click(function () {
 
       $("#est_cgpa").val(Math.round(est_cgpa * 100) / 100);
       $("#total_credit").val(total_credit);
-      $("#course_1").hide();
-      $("#course_2").hide();
-      $("#course_3").hide();
-      $("#result").show();
+      $("#course_1").slideUp();
+      $("#course_2").slideUp();
+      $("#course_3").slideUp();
+      $("#result").slideDown();
       $("#calculate_btn").hide();
       $("#back_btn").hide();
       $("#again_btn").show();
@@ -263,11 +265,11 @@ $("#calculate_btn").click(function () {
 
       $("#est_cgpa").val(Math.round(est_cgpa * 100) / 100);
       $("#total_credit").val(total_credit);
-      $("#course_1").hide();
-      $("#course_2").hide();
-      $("#course_3").hide();
-      $("#course_4").hide();
-      $("#result").show();
+      $("#course_1").slideUp();
+      $("#course_2").slideUp();
+      $("#course_3").slideUp();
+      $("#course_4").slideUp();
+      $("#result").slideDown();
       $("#calculate_btn").hide();
       $("#back_btn").hide();
       $("#again_btn").show();
@@ -333,12 +335,12 @@ $("#calculate_btn").click(function () {
 
       $("#est_cgpa").val(Math.round(est_cgpa * 100) / 100);
       $("#total_credit").val(total_credit);
-      $("#course_1").hide();
-      $("#course_2").hide();
-      $("#course_3").hide();
-      $("#course_4").hide();
-      $("#course_5").hide();
-      $("#result").show();
+      $("#course_1").slideUp();
+      $("#course_2").slideUp();
+      $("#course_3").slideUp();
+      $("#course_4").slideUp();
+      $("#course_5").slideUp();
+      $("#result").slideDown();
       $("#calculate_btn").hide();
       $("#back_btn").hide();
       $("#again_btn").show();
@@ -413,13 +415,13 @@ $("#calculate_btn").click(function () {
 
       $("#est_cgpa").val(Math.round(est_cgpa * 100) / 100);
       $("#total_credit").val(total_credit);
-      $("#course_1").hide();
-      $("#course_2").hide();
-      $("#course_3").hide();
-      $("#course_4").hide();
-      $("#course_5").hide();
-      $("#course_6").hide();
-      $("#result").show();
+      $("#course_1").slideUp();
+      $("#course_2").slideUp();
+      $("#course_3").slideUp();
+      $("#course_4").slideUp();
+      $("#course_5").slideUp();
+      $("#course_6").slideUp();
+      $("#result").slideDown();
       $("#calculate_btn").hide();
       $("#back_btn").hide();
       $("#again_btn").show();
@@ -509,14 +511,14 @@ $("#calculate_btn").click(function () {
 
       $("#est_cgpa").val(Math.round(est_cgpa * 100) / 100);
       $("#total_credit").val(total_credit);
-      $("#course_1").hide();
-      $("#course_2").hide();
-      $("#course_3").hide();
-      $("#course_4").hide();
-      $("#course_5").hide();
-      $("#course_6").hide();
-      $("#course_7").hide();
-      $("#result").show();
+      $("#course_1").slideUp();
+      $("#course_2").slideUp();
+      $("#course_3").slideUp();
+      $("#course_4").slideUp();
+      $("#course_5").slideUp();
+      $("#course_6").slideUp();
+      $("#course_7").slideUp();
+      $("#result").slideDown();
       $("#calculate_btn").hide();
       $("#back_btn").hide();
       $("#again_btn").show();
@@ -616,15 +618,15 @@ $("#calculate_btn").click(function () {
 
       $("#est_cgpa").val(Math.round(est_cgpa * 100) / 100);
       $("#total_credit").val(total_credit);
-      $("#course_1").hide();
-      $("#course_2").hide();
-      $("#course_3").hide();
-      $("#course_4").hide();
-      $("#course_5").hide();
-      $("#course_6").hide();
-      $("#course_7").hide();
-      $("#course_8").hide();
-      $("#result").show();
+      $("#course_1").slideUp();
+      $("#course_2").slideUp();
+      $("#course_3").slideUp();
+      $("#course_4").slideUp();
+      $("#course_5").slideUp();
+      $("#course_6").slideUp();
+      $("#course_7").slideUp();
+      $("#course_8").slideUp();
+      $("#result").slideDown();
       $("#calculate_btn").hide();
       $("#back_btn").hide();
       $("#again_btn").show();
