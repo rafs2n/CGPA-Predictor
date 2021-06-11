@@ -1,4 +1,4 @@
 # CGPA-Predictor
 A CGPA calculator for NSUers to predict CGPA for upcoming semesters!
 
-Page Live- 
+Page Live- https://rafs2n.github.io/CGPA-Predictor/
